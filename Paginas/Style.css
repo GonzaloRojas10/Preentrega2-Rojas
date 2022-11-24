@@ -1,0 +1,32 @@
+.menu_superior {
+  background-color: #9ce9d7;
+}
+
+.superior__link {
+  text-decoration: none;
+  color: #444;
+  padding: 0 6px 0 6px;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-item {
+  margin: 0 15px 0 15px;
+  padding: 1rem;
+}
+
+.form-search {
+  box-shadow: none;
+  border: 1px solid #9ce9d7;
+  border-radius: 10px;
+  padding: 0.2rem;
+}
+
+@media screen and (max-width: 390px) {
+  .navbar {
+    flex-direction: row;
+  }
+} ;
