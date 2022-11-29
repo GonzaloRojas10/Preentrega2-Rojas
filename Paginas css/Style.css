@@ -137,6 +137,8 @@ img.btn-whatsapp:hover {
   margin-right: 120px;
 }
 
+/* PAGINA GIFT CARD */
+
 @media (max-width: 414px) {
   .superior__link {
     display: none;
@@ -165,4 +167,6 @@ img.btn-whatsapp:hover {
   .form1__id {
     display: none;
   }
+
+  /* PAGINA GIFT CARD */
 }
