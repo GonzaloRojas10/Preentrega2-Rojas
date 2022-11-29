@@ -1,0 +1,168 @@
+/* menu superior*/
+.menu-superior {
+  background-color: #9ce9d7;
+}
+
+.superior__link {
+  text-decoration: none;
+  color: #444;
+  margin: 0 6px 0 6px;
+}
+
+/*Navbar*/
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header__searchcont {
+  margin: 0px 0px 0px 100px;
+}
+
+.searchcont__buscador {
+  box-shadow: none;
+  border: 1px solid #9ce9d7;
+  border-radius: 10px;
+  padding: 0.2rem;
+}
+
+/*Seccion img + texto */
+
+.section2-img {
+  width: 400px;
+}
+
+/*Newsletter */
+
+.btn {
+  margin: 6px 0;
+  border-radius: 20px;
+}
+
+.conteiner-form1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: #b9f1e0;
+  color: #444;
+}
+
+.form1__titulo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.form1__registrate {
+  padding-bottom: 20px;
+}
+
+.form1__input {
+  width: 70%;
+  padding: 7px;
+  border: none;
+  margin: 6px 0;
+  border-bottom: 3px solid #5dd;
+  border-radius: 20px;
+}
+
+.form1__input:focus {
+  background: linear-gradient(to bottom, transparent, pink);
+  outline: none;
+  border-bottom: 3px solid pink;
+}
+
+/* Redes sociales */
+
+#download {
+  padding: 4rem 0 5rem 0;
+  text-align: center;
+  display: block;
+}
+
+.download__tittle {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #444;
+}
+
+.download__logo-box {
+  display: inline-block;
+}
+
+.img-logoredes {
+  height: 130px;
+  padding-top: 20px;
+}
+
+/*boton whatsapp*/
+
+.btn-whatsapp {
+  display: block !important;
+  position: fixed;
+  z-index: 9999999;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  border-radius: 100px !important;
+}
+img.btn-whatsapp:hover {
+  border-radius: 100px !important;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
+  box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
+  transition-duration: 1s;
+}
+
+/*Footer*/
+
+.container-boxs {
+  background-color: #9ce9d7;
+  padding-top: 20px;
+  color: #444;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #444;
+}
+
+.footer__list {
+  list-style: none;
+  margin-right: 120px;
+}
+
+@media (max-width: 414px) {
+  .superior__link {
+    display: none;
+  }
+
+  .header__searchcont {
+    display: none;
+  }
+
+  .nav-imgmenu {
+    display: none;
+  }
+
+  .section-2__contacto {
+    margin-bottom: 20px;
+  }
+
+  .section-2__cuotas {
+    display: none;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .form1__id {
+    display: none;
+  }
+}
