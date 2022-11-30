@@ -34,7 +34,24 @@
 /*Seccion img + texto */
 
 .section2-img {
-  width: 400px;
+  width: 250px;
+}
+
+/* Nuevos ingresos */
+
+.animation {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*Newsletter */
@@ -137,7 +154,21 @@ img.btn-whatsapp:hover {
   margin-right: 120px;
 }
 
-/* PAGINA GIFT CARD */
+/* PAGINA CONTACTO */
+
+.form__input {
+  width: 400px;
+  padding: 7px;
+  margin: 6px;
+  border-bottom: 3px solid #ffd0d5;
+  border-radius: 20px;
+}
+
+.form__input:focus {
+  background: linear-gradient(to bottom, transparent, #9ce9d7);
+  outline: none;
+  border-bottom: 3px solid pink;
+}
 
 @media (max-width: 414px) {
   .superior__link {
@@ -168,5 +199,14 @@ img.btn-whatsapp:hover {
     display: none;
   }
 
-  /* PAGINA GIFT CARD */
+  /* PAGINA CONTACTO */
+
+  .form__input {
+    width: 100%;
+  }
+
+  .contacto__list {
+    display: block;
+    text-align: left;
+  }
 }
