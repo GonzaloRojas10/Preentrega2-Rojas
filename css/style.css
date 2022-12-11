@@ -1,30 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* menu superior*/
 .menu-superior {
   background-color: #9ce9d7;
 }
-
-.superior__link {
+.menu-superior .superior__link {
   text-decoration: none;
   color: #444;
   margin: 0 6px 0 6px;
 }
 
 /*Navbar*/
-
 .navbar {
   background-color: white;
 }
-
-.navbar-collapse {
+.navbar .navbar-collapse {
   align-items: center;
   justify-content: space-around;
 }
-
-.header__searchcont {
+.navbar .navbar-collapse .header__searchcont {
   margin: 0px 0px 0px 100px;
 }
-
-.searchcont__buscador {
+.navbar .navbar-collapse .header__searchcont .searchcont__buscador {
   box-shadow: none;
   border: 1px solid #9ce9d7;
   border-radius: 10px;
@@ -32,13 +33,11 @@
 }
 
 /*Seccion img + texto */
-
 .section2-img {
   width: 250px;
 }
 
 /* Nuevos ingresos */
-
 .animation {
   animation-duration: 2s;
   animation-name: aparecer;
@@ -53,14 +52,7 @@
     opacity: 1;
   }
 }
-
-/*Newsletter */
-
-.btn {
-  margin: 6px 0;
-  border-radius: 20px;
-}
-
+/*Newsletter*/
 .conteiner-form1 {
   display: flex;
   justify-content: center;
@@ -68,18 +60,19 @@
   background-color: #b9f1e0;
   color: #444;
 }
-
-.form1__titulo {
+.conteiner-form1 .form1__titulo {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 20px;
 }
-
-.form1__registrate {
+.conteiner-form1 .btn {
+  margin: 6px 0;
+  border-radius: 20px;
+}
+.conteiner-form1 .form1__registrate {
   padding-bottom: 20px;
 }
-
-.form1__input {
+.conteiner-form1 .form1__input {
   width: 70%;
   padding: 7px;
   border: none;
@@ -87,38 +80,32 @@
   border-bottom: 3px solid #5dd;
   border-radius: 20px;
 }
-
-.form1__input:focus {
+.conteiner-form1 .form1__input:focus {
   background: linear-gradient(to bottom, transparent, pink);
   outline: none;
   border-bottom: 3px solid pink;
 }
 
 /* Redes sociales */
-
 #download {
   padding: 4rem 0 5rem 0;
   text-align: center;
   display: block;
 }
-
-.download__tittle {
+#download .download__tittle {
   margin-bottom: 20px;
   font-size: 30px;
   color: #444;
 }
-
-.download__logo-box {
+#download .download__logo-box {
   display: inline-block;
 }
-
-.img-logoredes {
+#download .download__logo-box .img-logoredes {
   height: 130px;
   padding-top: 20px;
 }
 
 /*boton whatsapp*/
-
 .btn-whatsapp {
   display: block !important;
   position: fixed;
@@ -128,34 +115,30 @@
   cursor: pointer;
   border-radius: 100px !important;
 }
-img.btn-whatsapp:hover {
+.btn-whatsapp:hover {
   border-radius: 100px !important;
-  -webkit-box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
-  -moz-box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
-  box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
+  -webkit-box-shadow: 0px 0px 15px 0px rgb(7, 94, 84);
+  -moz-box-shadow: 0px 0px 15px 0px rgb(7, 94, 84);
+  box-shadow: 0px 0px 15px 0px rgb(7, 94, 84);
   transition-duration: 1s;
 }
 
-/*Footer*/
-
+/*footer*/
 .container-boxs {
   background-color: #9ce9d7;
   padding-top: 20px;
   color: #444;
 }
-
-.footer__link {
+.container-boxs .footer__list {
+  list-style: none;
+  margin-right: 120px;
+}
+.container-boxs .footer__list .footer__link {
   text-decoration: none;
   color: #444;
 }
 
-.footer__list {
-  list-style: none;
-  margin-right: 120px;
-}
-
 /* PAGINA CONTACTO */
-
 .form__input {
   width: 400px;
   padding: 7px;
@@ -163,7 +146,6 @@ img.btn-whatsapp:hover {
   border-bottom: 3px solid #ffd0d5;
   border-radius: 20px;
 }
-
 .form__input:focus {
   background: linear-gradient(to bottom, transparent, #9ce9d7);
   outline: none;
@@ -174,39 +156,32 @@ img.btn-whatsapp:hover {
   .superior__link {
     display: none;
   }
-
   .header__searchcont {
     display: none;
   }
-
   .nav-imgmenu {
     display: none;
   }
-
   .section-2__contacto {
     margin-bottom: 20px;
   }
-
   .section-2__cuotas {
     display: none;
   }
-
   .card {
     margin-bottom: 20px;
   }
-
   .form1__id {
     display: none;
   }
-
   /* PAGINA CONTACTO */
-
   .form__input {
     width: 100%;
   }
-
   .contacto__list {
     display: block;
     text-align: left;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
