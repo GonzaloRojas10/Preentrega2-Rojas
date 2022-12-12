@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GonzaloRojas10/Proyecto-2/issues"
   },
-  "homepage": "https://github.com/GonzaloRojas10/Proyecto-2#readme"
+  "homepage": "https://github.com/GonzaloRojas10/Proyecto-2#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
 }
