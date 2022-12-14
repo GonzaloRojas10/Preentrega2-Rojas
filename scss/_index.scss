@@ -21,11 +21,10 @@
   }
 }
 
-/*Newsletter*/
+/*Newsletter, ACA USO MIXINS*/
 
 .conteiner-form1 {
-  display: flex;
-  justify-content: center;
+  @include flexCenter (column);
   margin-top: 100px;
   background-color: #b9f1e0;
   color: $text-color;

@@ -62,10 +62,12 @@
     opacity: 1;
   }
 }
-/*Newsletter*/
+/*Newsletter, ACA USO MIXINS*/
 .conteiner-form1 {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-top: 100px;
   background-color: #b9f1e0;
   color: #444;
