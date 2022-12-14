@@ -1,0 +1,17 @@
+/*footer*/
+
+.container-boxs {
+  background-color: $color-primary;
+  padding-top: 20px;
+  color: $text-color;
+
+  .footer__list {
+    list-style: none;
+    margin-right: 120px;
+
+    .footer__link {
+      text-decoration: none;
+      color: $text-color;
+    }
+  }
+}

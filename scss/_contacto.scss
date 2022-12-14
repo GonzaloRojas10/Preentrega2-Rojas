@@ -1,0 +1,26 @@
+/* PAGINA CONTACTO */
+
+.form__input {
+  width: 400px;
+  padding: 7px;
+  margin: 6px;
+  border-bottom: 3px solid #ffd0d5;
+  border-radius: 20px;
+
+  &:focus {
+    background: linear-gradient(to bottom, transparent, $color-primary);
+    outline: none;
+    border-bottom: 3px solid pink;
+  }
+}
+
+@media (max-width: 414px) {
+  .form__input {
+    width: 100%;
+  }
+
+  .contacto__list {
+    display: block;
+    text-align: left;
+  }
+}

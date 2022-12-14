@@ -1,0 +1,44 @@
+/* menu superior*/
+
+.menu-superior {
+  background-color: $color-primary;
+
+  .superior__link {
+    text-decoration: none;
+    color: $text-color;
+    margin: 0 6px 0 6px;
+  }
+}
+
+/*Navbar*/
+
+.navbar {
+  background-color: white;
+
+  .navbar-collapse {
+    align-items: center;
+    justify-content: space-around;
+
+    .header__searchcont {
+      margin: 0px 0px 0px 100px;
+
+      .searchcont__buscador {
+        box-shadow: none;
+        border: 1px solid $color-primary;
+        border-radius: 10px;
+        padding: 0.2rem;
+      }
+    }
+  }
+}
+
+/*media queri*/
+@media (max-width: 414px) {
+  .superior__link {
+    display: none;
+  }
+
+  .header__searchcont {
+    display: none;
+  }
+}

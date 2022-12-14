@@ -1,3 +1,5 @@
+@import url(../node_modules/bootstrap/scss/bootstrap);
+
 * {
   margin: 0;
   padding: 0;
@@ -32,6 +34,15 @@
   padding: 0.2rem;
 }
 
+/*media queri*/
+@media (max-width: 414px) {
+  .superior__link {
+    display: none;
+  }
+  .header__searchcont {
+    display: none;
+  }
+}
 /*Seccion img + texto */
 .section2-img {
   width: 250px;
@@ -123,6 +134,21 @@
   transition-duration: 1s;
 }
 
+/*media queri*/
+@media (max-width: 414px) {
+  .section-2__contacto {
+    margin-bottom: 20px;
+  }
+  .section-2__cuotas {
+    display: none;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .form1__id {
+    display: none;
+  }
+}
 /*footer*/
 .container-boxs {
   background-color: #9ce9d7;
@@ -153,28 +179,6 @@
 }
 
 @media (max-width: 414px) {
-  .superior__link {
-    display: none;
-  }
-  .header__searchcont {
-    display: none;
-  }
-  .nav-imgmenu {
-    display: none;
-  }
-  .section-2__contacto {
-    margin-bottom: 20px;
-  }
-  .section-2__cuotas {
-    display: none;
-  }
-  .card {
-    margin-bottom: 20px;
-  }
-  .form1__id {
-    display: none;
-  }
-  /* PAGINA CONTACTO */
   .form__input {
     width: 100%;
   }
