@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Vai&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
 @import url(../node_modules/bootstrap/scss/bootstrap);
 * {
   margin: 0;
@@ -43,6 +44,15 @@
     display: none;
   }
 }
+/* FUENTES*/
+.font-text {
+  font-family: "Oleo Script", cursive;
+}
+
+.font-text2 {
+  font-family: "Montserrat", sans-serif;
+}
+
 /*Seccion img + texto */
 .section2-img {
   width: 250px;
